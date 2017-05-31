@@ -1,6 +1,4 @@
 const path = require('path');
-// const devEnv = process.env.NODE_ENV === 'development';
-// const prdEnv = process.env.NODE_ENV === 'production';
 
 module.exports = {
   entry: './src/index.js',
@@ -21,7 +19,7 @@ module.exports = {
         test: /(\.jsx|\.js)$/,
         loader: 'eslint-loader',
         exclude: /node_modules/
-}
+      }
     ]
   },
   devServer: {
