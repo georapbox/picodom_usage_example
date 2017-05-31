@@ -7,7 +7,15 @@
     "start": "NODE_ENV=development webpack-dev-server",
     "dev": "webpack --progress --colors --watch --env dev"
   },
-  "keywords": [],
+  "keywords": [
+    "picodom",
+    "dom",
+    "virtual",
+    "state",
+    "builder",
+    "patch",
+    "algorithm"
+  ],
   "author": "George Raptis <georapbox@gmail.com> (georapbox.github.io)",
   "license": "MIT",
   "devDependencies": {
