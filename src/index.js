@@ -1,21 +1,9 @@
-import {h, patch} from 'picodom'; // eslint-disable-line
+import {h} from 'picodom'; // eslint-disable-line
+import {Component} from './Component';
 import {names} from './dummy/names';
 import randomName from './random-name';
 
 const root = document.getElementById('root');
-
-class Component {
-  constructor() {
-    this.element = null;
-    this.oldNode = null;
-    this.rootNode = null;
-  }
-
-  render(rootNode) {
-    const _render = newNode => this.element = patch(rootNode || this.rootNode, this.element, this.oldNode, this.oldNode = newNode);
-    return _render(this.view ? this.view(this.state) : '');
-  }
-}
 
 class App extends Component {
   constructor() {
