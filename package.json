@@ -1,0 +1,26 @@
+{
+  "name": "picodom_demo",
+  "version": "1.0.0",
+  "description": "Usage example of Picodom Virtual DOM builder",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "dev": "webpack --progress --colors --watch --env dev"
+  },
+  "keywords": [],
+  "author": "George Raptis <georapbox@gmail.com> (georapbox.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "~6.24.1",
+    "babel-core": "~6.24.1",
+    "babel-loader": "~7.0.0",
+    "babel-plugin-transform-react-jsx": "~6.24.1",
+    "babel-preset-env": "~1.5.1",
+    "eslint": "~3.19.0",
+    "webpack": "~2.6.1",
+    "webpack-dev-server": "~2.4.5"
+  },
+  "dependencies": {
+    "picodom": "0.0.6"
+  }
+}
