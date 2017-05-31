@@ -18,6 +18,14 @@
   ],
   "author": "George Raptis <georapbox@gmail.com> (georapbox.github.io)",
   "license": "MIT",
+  "homepage": "https://github.com/georapbox/picodom_usage_example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georapbox/picodom_usage_example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/georapbox/picodom_usage_example/issues"
+  },
   "devDependencies": {
     "babel-cli": "~6.24.1",
     "babel-core": "~6.24.1",
@@ -25,6 +33,7 @@
     "babel-plugin-transform-react-jsx": "~6.24.1",
     "babel-preset-env": "~1.5.1",
     "eslint": "~3.19.0",
+    "eslint-loader": "~1.7.1",
     "webpack": "~2.6.1",
     "webpack-dev-server": "~2.4.5"
   },
