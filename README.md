@@ -1,6 +1,6 @@
-# Picodom Usage Example
+# Ultradom micro-library usage example
 
-Usage example of [Picodom](https://github.com/picodom/picodom) Virtual DOM builder and patch algorithm
+Usage example of [Ultradom](https://github.com/jorgebucaran/ultradom) Virtual DOM micro-library
 
 ## Start Dev Server
 

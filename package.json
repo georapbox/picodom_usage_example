@@ -1,14 +1,14 @@
 {
-  "name": "picodom_demo",
+  "name": "ultradom_demo",
   "version": "1.0.0",
-  "description": "Usage example of Picodom Virtual DOM builder and patch algorithm",
+  "description": "Usage example of Ultradom Virtual DOM micro-library",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",
     "dev": "webpack --progress --colors --watch --env dev"
   },
   "keywords": [
-    "picodom",
+    "ultradom",
     "dom",
     "virtual",
     "state",
@@ -18,13 +18,13 @@
   ],
   "author": "George Raptis <georapbox@gmail.com> (georapbox.github.io)",
   "license": "MIT",
-  "homepage": "https://github.com/georapbox/picodom_usage_example",
+  "homepage": "https://github.com/georapbox/ultradom_usage_example",
   "repository": {
     "type": "git",
-    "url": "https://github.com/georapbox/picodom_usage_example.git"
+    "url": "https://github.com/georapbox/ultradom_usage_example.git"
   },
   "bugs": {
-    "url": "https://github.com/georapbox/picodom_usage_example/issues"
+    "url": "https://github.com/georapbox/ultradom_usage_example/issues"
   },
   "devDependencies": {
     "babel-cli": "~6.24.1",
@@ -38,6 +38,6 @@
     "webpack-dev-server": "~2.4.5"
   },
   "dependencies": {
-    "picodom": "0.0.6"
+    "ultradom": "~2.0.0"
   }
 }

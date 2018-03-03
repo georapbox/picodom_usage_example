@@ -1,4 +1,4 @@
-import {patch} from 'picodom';
+import {patch} from 'ultradom';
 
 export class Component {
   constructor() {
@@ -8,7 +8,8 @@ export class Component {
   }
 
   render(rootNode) {
-    const _render = newNode => this.element = patch(rootNode || this.rootNode, this.element, this.oldNode, this.oldNode = newNode);
-    return _render(this.view ? this.view(this.state) : '');
+    // const _render = newNode => this.element = patch(rootNode || this.rootNode, this.element, this.oldNode, this.oldNode = newNode);
+    // return _render(this.view ? this.view(this.state) : '');
+    return patch(this.view(this.state), rootNode);
   }
 }
